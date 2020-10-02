@@ -10,7 +10,8 @@
 ## Install
 
 ```fish
-$ omf install sushi
+$ cp <orange-sushi> $HOME/.local/share/omf/themes/
+$ omf theme orange-sushi
 ```
 
 ## Features
@@ -28,20 +29,9 @@ $ omf install sushi
 * Support for Terraform
 * Support for Kubernetes
 
-## Screenshot
-
-![Screenshot for Sushi Theme](https://camo.githubusercontent.com/98de9526e48e3ad03e761893c539891563e41276/68747470733a2f2f6769746875622d636c6f75642e73332e616d617a6f6e6177732e636f6d2f6173736574732f333037313934382f31303536353038362f66383463326432632d373565312d313165352d383234382d3364386262623965636565392e706e67)
-
-![Screenshot of Sushi Theme with Terraform Workspaces](https://user-images.githubusercontent.com/7011993/43540375-907eeca8-9595-11e8-8af9-92183a3ad997.png)
-
-![Screenshot of Sushi Theme with Kubernetes](https://user-images.githubusercontent.com/1866448/56770256-c09f8f00-67b3-11e9-9bcf-d654243e881c.png)
-
-![Screenshot of Sushi Theme with SSH](https://user-images.githubusercontent.com/14050128/64432134-54278b80-d0d5-11e9-93f0-f3ef451af906.png)
-
 ## License
 
 [MIT][mit] © [Umayr Shahid][author] et [al][contributors]
-
 
 [mit]:            http://opensource.org/licenses/MIT
 [author]:         http://github.com/umayr

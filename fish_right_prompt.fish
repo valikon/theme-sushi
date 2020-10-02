@@ -1,10 +1,10 @@
 # Colors
 function orange
-    set_color -o ee5819
+    set_color -o d0480f
 end
 
 function yellow
-    set_color -o b58900
+    set_color -o c3a032
 end
 
 function red
@@ -137,7 +137,7 @@ function fish_right_prompt
 		printf (yellow)"("(dim)$terraform_workspace_name(yellow)") "(off)
 	end
 
-	printf (yellow)"("(dim)$cwd(yellow)") "(off)
+	printf (yellow)"("(orange)$cwd(yellow)") "(off)
 	printf (dim)(date +%H(yellow):(dim)%M(yellow):(dim)%S)(off)
 
 end
